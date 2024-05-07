@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.nowrap {
+    text-wrap: nowrap;
+}
+
+.button {
+    background-color: #3882f6;
+    width: 90px;
+    text-align: center;
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+
+/* Header */
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header {
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    min-height: 2rem;
+    justify-content: space-between;
+    padding: 15px 15%;
+}
+
+header span {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+
+section:first-of-type {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    padding: 1rem 15%;
+    gap: 20px;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section:first-of-type article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+section:first-of-type article h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+section:first-of-type article p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+section:first-of-type .img {
+    min-width: 300px;
+    min-height: 125px;
+    background-color: rgba(196, 194, 194, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+/* Some random information. */
+
+section:nth-of-type(2) {
+    display: flex;
+    color: black;
+    padding: 1rem 15%;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+section:nth-of-type(2) h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+}
+
+section:nth-of-type(2) #cards {
+    display: flex;
+    gap: 20px;
+    font-size: 0.8rem;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section:nth-of-type(2) .img {
+    width: 100px;
+    height: 100px;
+    border: solid 2px #3882f6;
+    border-radius: 10px;
+}
+
+section:nth-of-type(2) .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.5px;
+}
+
+section:nth-of-type(2) .card p {
+    width: 110px;
+}
+
+/* Quote */
+
+section:nth-of-type(3) {
+    display: flex;
+    color: black;
+    padding: 1rem 30%;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+section:nth-of-type(3) blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section:nth-of-type(3) blockquote footer {
+    font-size: 1.25rem;
+    font-style: normal;
+    text-align: end;
+    align-self: flex-end;
+}
+
+/* Call to action */
+
+section:nth-of-type(4) {
+    display: flex;
+    padding: 1rem 15%;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+section:nth-of-type(4) #call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    gap: 2rem;
+    color: white;
+    padding: 2.5rem 5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+section:nth-of-type(4) #call-to-action .button {
+    border: solid 1px white;
+}
+
+/* Footer */
+
+body > footer {
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    min-height: 4rem;
+    padding: 0 200px;
+    justify-content: center;
+}
